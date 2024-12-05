@@ -171,6 +171,8 @@ if st.sidebar.button("분석 실행"):
         st.write(f"Durbin-Watson Statistic: {dw_stat:.3f}")
         if dw_stat < 1.5 or dw_stat > 2.5:
             st.warning("Durbin-Watson 값이 1.5~2.5를 벗어났습니다. 자기상관 문제가 있을 수 있습니다.")
+        else: 
+            st.success("자기상관 문제가 존재하지 않습니다.")
 
 
 
