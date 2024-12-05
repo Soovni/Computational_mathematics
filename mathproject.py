@@ -162,6 +162,8 @@ if st.sidebar.button("분석 실행"):
         st.write(f"Test Statistic: {jb_stat:.3f}, P-value: {jb_pval:.3f}")
         if jb_pval < 0.05:
             st.warning("잔차가 정규성을 따르지 않을 가능성이 높습니다.")
+        else: 
+            st.success("잔차가 정규성을 따릅니다")
 
         # Durbin-Watson 통계량 출력
         dw_stat = sm.stats.stattools.durbin_watson(model.resid)
