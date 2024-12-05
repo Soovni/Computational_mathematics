@@ -14,7 +14,7 @@ retest.py 파일 있는 곳 가서 cmd 파일 열어주시면 됩니다. (마우
 
 (12/4) 
 
-++ 최최종 mathproject.py 파일입니다. 최최종이에요 
+++ 최최종 mathproject.py 파일입니다. 최최종이에요. 실행방법은 터미널 열고 streamlit run mathproject.py 입니다. 
 
 다중회귀분석할때 고려해야할게 여러가지 있는데
 
